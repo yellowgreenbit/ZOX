@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Test3.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{18675F79-6DCE-4546-B0FC-E5A2DC7730AC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Test3.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Test3Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3598CB83-DE5B-48E3-AD1E-E054AE8F2EBD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Test3">
+      <UniqueIdentifier>{A424F763-A8B6-4903-92C4-40170D5A3173}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Test3\Block.cpp">
+      <Filter>Source\Test3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test3\Block.h">
+      <Filter>Source\Test3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Test3\Desk.cpp">
+      <Filter>Source\Test3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test3\Desk.h">
+      <Filter>Source\Test3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Test3\MyPlayerController.cpp">
+      <Filter>Source\Test3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test3\MyPlayerController.h">
+      <Filter>Source\Test3</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Test3\Test3.Build.cs">
+      <Filter>Source\Test3</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Test3\Test3.cpp">
+      <Filter>Source\Test3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test3\Test3.h">
+      <Filter>Source\Test3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Test3\Test3GameModeBase.cpp">
+      <Filter>Source\Test3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Test3\Test3GameModeBase.h">
+      <Filter>Source\Test3</Filter>
+    </ClInclude>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
